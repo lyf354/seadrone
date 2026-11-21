@@ -1,0 +1,29 @@
+# ---- 数据与权重：绝不进仓库（纪律 ①）----
+data/
+datasets/
+runs/
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.mp4
+*.avi
+
+# ---- Python 缓存 ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+
+# ---- 环境与编辑器 ----
+.env
+.venv/
+.idea/
+.vscode/
+
+# ---- 系统 ----
+Thumbs.db
+desktop.ini
+.DS_Store

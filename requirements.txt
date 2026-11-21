@@ -1,0 +1,15 @@
+# 本文件由 `pip freeze > requirements.txt` 生成，不是手写的。
+#
+# 使用时：
+#   1. 按 RUNBOOK 装完环境
+#   2. pip freeze > requirements.txt
+#   3. 提交（装好当天就提交，对应 7.4 版本锁定）
+#
+# 为什么现在是空的：
+#   手写版本号容易和实际环境不一致，反而制造「同一份 requirements 装出两套环境」的坑。
+#   装完照实导出，才是真锁定。
+#
+# 三条纪律（7.4）：
+#   * 任何升级先在分支上试，跑通一次完整评测再合并
+#   * 升级前后各留一次基线数字，确认指标没有漂移
+#   * 同时导出 environment.yml 作为兜底（conda env export > environment.yml）

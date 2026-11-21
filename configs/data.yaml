@@ -1,0 +1,21 @@
+# YOLOv8 数据配置
+# —— W3-1 冻结后不得再改；冻结版提交进仓库，所有人共用这一份。
+#
+# 待填：以下字段以实际下载目录与数据集自带 data.yaml 为准（规划书 11.3「待核实项」）
+
+path: D:/data/SeaDronesSee      # 数据集根目录。绝对路径，纯英文，不要带空格
+train: images/train
+val: images/val
+test: images/test
+
+# 类别映射：id 与名称必须和数据集 names 完全一致，固定后写进配置，任何人不得再改
+names:
+  0: TODO_类别0
+  1: TODO_类别1
+  # ... 按 data.yaml 补全，漏一个类别，所有指标作废
+
+# 核验备注（填完 P2 后回填这里，方便 W5 复核）
+# 图像总数:
+# 标注文件数:
+# 空标注图数:
+# 官方划分: train/val/test =
