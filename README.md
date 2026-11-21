@@ -76,6 +76,8 @@ yolo detect val model=runs/detect/train/weights/best.pt data=configs/data.yaml i
 
 - 数据集：SeaDronesSee v2，经 HuggingFace 公开镜像获取（以实际下载为准）
 - **镜像可下载 ≠ 可任意使用**：许可条款见数据集主页，报告与仓库须注明来源与使用方式
+- 本仓库的**代码**采用 [MIT 许可](LICENSE)；数据集不在此许可范围内，仍遵循其原始条款
+- 引用本仓库时请注明：项目名 + 仓库地址 + 访问日期
 
 ## 仓库纪律
 
